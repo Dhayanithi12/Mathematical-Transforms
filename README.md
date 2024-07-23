@@ -19,7 +19,7 @@ To run the code, you need to set up your environment with the necessary dependen
    ```bash
    git clone https://github.com/yourusername/your-repository-name.git
    cd your-repository-name
-Create and activate a virtual environment:
+## Create and activate a virtual environment:
 
 bash
 Copy code
@@ -30,7 +30,8 @@ Install the required packages:
 bash
 Copy code
 pip install -r requirements.txt
-Ensure requirements.txt includes packages such as numpy, scipy, opencv-python, matplotlib, etc. You can create it using:
+
+## Ensure requirements.txt includes packages such as numpy, scipy, opencv-python, matplotlib, etc. You can create it using:
 
 bash
 Copy code
@@ -38,21 +39,21 @@ pip freeze > requirements.txt
 Usage
 Run FFT Algorithms:
 
-To execute a specific FFT algorithm, navigate to the fft_algorithms/ directory and run the script corresponding to the desired algorithm. For example:
+## To execute a specific FFT algorithm, navigate to the fft_algorithms/ directory and run the script corresponding to the desired algorithm. For example:
 
 bash
 Copy code
 python cooley_tukey_fft.py
 Perform Image Analysis:
 
-For image analysis using FFT, go to the image_analysis/ directory. To compress an image using FFT, run:
+## For image analysis using FFT, go to the image_analysis/ directory. To compress an image using FFT, run:
 
 bash
 Copy code
 python image_compression.py --input path/to/image.jpg --output path/to/output.jpg --compression-value C
 Replace path/to/image.jpg with the path to your input image, path/to/output.jpg with the desired output path, and C with the compression value.
 
-Run Ramanujan Transform:
+## Run Ramanujan Transform:
 
 To run the Ramanujan Fourier Transform, navigate to the ramanujan_transform/ directory and execute:
 
@@ -64,21 +65,23 @@ Adjust the paths as needed for your input and output files.
 Contributing
 Contributions are welcome! To contribute to this project, follow these steps:
 
-Fork the repository:
+## Fork the repository:
 
 Click the "Fork" button at the top-right of the repository page on GitHub.
 
-Clone your fork:
+##Clone your fork:
 
 bash
 Copy code
 git clone https://github.com/yourusername/your-repository-name.git
-Create a new branch:
+
+## Create a new branch:
 
 bash
 Copy code
 git checkout -b your-branch-name
-Make your changes and commit:
+
+##Make your changes and commit:
 
 bash
 Copy code
@@ -93,10 +96,10 @@ Create a pull request:
 
 Go to your repository on GitHub and click the "Compare & pull request" button. Describe your changes and submit the pull request.
 
-License
+## License
 This project is licensed under the MIT License. See the LICENSE file for more details.
 
-References
+## References
 Fourier Transform - Wikipedia
 Image Compression Based on 2D Discrete Fourier Transform
 Cooley-Tukey FFT Algorithm
